@@ -11,7 +11,7 @@ contract StepBettingGame {
 
     constructor() {
         admin = msg.sender;
-        walkerAddress = 0xaC8af5ff5291134D310Bc4D516D512D0Dabe71ad;
+        walkerAddress = "YOUR_WALKER_ADDRESS";
     }
 
     modifier onlyAdmin() {
